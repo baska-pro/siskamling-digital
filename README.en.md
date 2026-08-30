@@ -27,3 +27,5 @@ For persistent systemd services after the first successful install:
 Run `bash tests/smoke.sh` before contributing. Never commit `.env`, databases, VAPID private keys, uploads, logs or backups.
 
 See [README.md](README.md) for the full Indonesian documentation.
+
+[![License: Baska-Pro Personal Use](https://img.shields.io/badge/License-Baska--Pro%20Personal%20Use%201.0-blue.svg?style=flat-square)](LICENSE)
