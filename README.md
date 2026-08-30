@@ -1,3 +1,10 @@
+## Screenshot
+
+<p align="center">
+  <img src="assets/screenshots/aktivasi.jpg" width="45%" alt="Aktivasi Siskamling Digital">
+  <img src="assets/screenshots/masuk.jpg" width="45%" alt="Login Siskamling Digital">
+</p>
+
 # Siskamling Digital
 
 [![CI](https://github.com/baska-pro/siskamling-digital/actions/workflows/ci.yml/badge.svg)](https://github.com/baska-pro/siskamling-digital/actions/workflows/ci.yml)
