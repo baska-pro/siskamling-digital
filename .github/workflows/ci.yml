@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Bash syntax
+        run: |
+          bash -n siskamling.sh
+          bash -n scripts/install-systemd.sh
+          bash -n scripts/upgrade-systemd.sh
+      - name: Smoke tests
+        run: bash tests/smoke.sh
+      - name: Repository hygiene
+        run: |
+          test ! -e .env
+          test ! -e app/ronda.db
+          if git ls-files | grep -E '(^|/)(venv|uploads|logs|backups)/|\.pem$|ronda\.db(-wal|-shm)?$'; then
+            echo "Runtime secret/data file is tracked." >&2
+            exit 1
+          fi

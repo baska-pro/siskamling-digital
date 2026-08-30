@@ -1,0 +1,37 @@
+# Secrets / runtime configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Runtime data
+venv/
+.venv/
+app/ronda.db
+app/ronda.db-*
+uploads/
+logs/
+backups/
+.pid_app
+.pid_dbweb
+
+# Generated runtime files
+app/main.py
+app/index.html
+app/requirements.txt
+app/static/
+backup.sh
+siskamling.service
+siskamling-db.service
+cloudflare-db-route.yml.example
+
+# Python / editor / OS
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+*.swp
+*.swo
+*.bak
+*~
