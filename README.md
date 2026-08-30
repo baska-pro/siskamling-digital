@@ -9,7 +9,7 @@
 
 [![CI](https://github.com/baska-pro/siskamling-digital/actions/workflows/ci.yml/badge.svg)](https://github.com/baska-pro/siskamling-digital/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/baska-pro/siskamling-digital?style=flat-square)](https://github.com/baska-pro/siskamling-digital/releases/latest)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+[![License: Baska-Pro Personal Use](https://img.shields.io/badge/License-Baska--Pro%20Personal%20Use%201.0-blue.svg?style=flat-square)](LICENSE)
 
 **Siskamling Digital v6.10.0** adalah aplikasi PWA + API untuk pengelolaan ronda/siskamling. Project tetap memakai konsep **single all-in-one Bash installer**: `siskamling.sh` menghasilkan backend FastAPI, frontend PWA, konfigurasi, migrasi database, backup, Web Push, dan file service yang diperlukan.
 
