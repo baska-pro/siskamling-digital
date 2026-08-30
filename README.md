@@ -71,4 +71,8 @@ Simpan password bootstrap yang ditampilkan installer, login sebagai `SA00001`, l
 
 ## Lisensi
 
-MIT.
+BASKA-PRO PERSONAL USE LICENSE
+Version 1.0
+
+Copyright (c) 2026 Lathif Baska
+All Rights Reserved.
