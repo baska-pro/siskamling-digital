@@ -1,3 +1,9 @@
+<!-- repo-banner:start -->
+<p align="center">
+  <img src="./assets/banner.png" alt="Siskamling Digital Banner" width="100%">
+</p>
+<!-- repo-banner:end -->
+
 ## Screenshot
 
 <p align="center">
